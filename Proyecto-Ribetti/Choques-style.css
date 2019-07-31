@@ -1,0 +1,108 @@
+body{
+}
+div{
+    text-align: center;
+}
+button { /* por tipo de elemento */
+    border-radius: 15px;
+    background: dodgerblue;
+    border-radius: 15px;
+    color: black;
+    font-weight: lighter;
+    padding: 5px 15px;
+}
+#button { /*por id*/
+    border-radius: 15px;
+    background: dodgerblue;
+    border-radius: 15px;
+    color: black;
+    font-weight: lighter;
+    padding: 5px 15px;
+}
+.pagina_principal{ /* por clase */
+    text-align: center;
+    font-family: "Arial Black";
+}
+.imagen_principal{
+    width: 20%;
+    border-radius: 20px;
+}
+.imagen{
+    width: 75%;
+    border-radius: 20px;
+}
+.imagen2{
+    width: 75%;
+    height: 40%;
+    border-radius: 20px;
+}
+.columna-izq{
+    background-color: #aaa;
+    width: 50%;
+    float: left;
+}
+.columna-der{
+    background-color: #aaa;
+    width: 50%;
+    float: right;
+}
+.img_select{
+    width: 75%;
+    border-radius: 10px;
+}
+canvas{
+    width: 90%;
+    height: 90%;
+    border:2px solid dodgerblue;
+    border-radius: 10px;
+}
+.column1 {
+    background-color:#aaa;
+    text-align: left;
+    float:left;
+    width: 27%;
+    padding: 10px;
+	overflow: hidden;
+}
+.column2 {
+    background-color:#aaa;
+    text-align: left;
+    float: right;
+    width: 27%;
+    padding: 10px;
+	overflow: hidden;
+}
+.column3{
+	overflow: hidden;
+	height: 100%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: dodgerblue;
+}
+.foot{
+    text-align: left;
+    fixed: bottom, right;
+}
+.about{
+    float: right;
+}

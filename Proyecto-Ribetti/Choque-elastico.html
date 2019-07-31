@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Choque elastico</title>
+    <link rel="stylesheet" type="text/css" href="Choques-style.css">
+    <link rel="icon" href="imagenes/8274mario-kart.ico">
+    <script type="text/javascript" src="choque-elastico-java.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+<body>
+<ul>
+    <li><a href="index.html">Pagina principal</a></li>
+    <li><a class="active">Choque elastico</a></li>
+    <li><a href="Choque-inelastico.html">Choque inelastico</a><li></li>
+    <li><a href="Choques-pag2.html">volver</a></li>
+    <li class="about"><a href="info.html">info</a></li>
+</ul>
+
+<section>
+    <div class="column1">
+        <h3>Masa del objeto 1</h3>
+        <input type="number" name="masa1" id="masa1" min="1" max="1000" step="1" value="1">
+        <h3>Velocidad del objeto 1</h3>
+        <input type="Number" name="velocidad1" id="velocidad1" min="-1000" max="1000" step="1" value="30">
+    </div>
+
+    <div class="column2">
+        <h3>Masa del objeto 2</h3>
+        <input type="number"  name="masa2" id="masa2" min="1" max="1000" step="1" value="1">
+        <h3>Velocidad del objeto 2</h3>
+        <input type="number"  name="velocidad2" id="velocidad2" min="-1000" max="1000" step="1" value="35">
+    </div>
+
+    <div class="column3">
+        <canvas width="480" height="320"  id="canvas">
+            Your browser does not support the HTML5 canvas tag.
+        </canvas>
+	    <div>
+            <button onclick="VF()" > Iniciar </button>
+		    <button onclick="reiniciar()" > Reiniciar </button>
+	    </div>
+    </div>
+</section>
+<footer class="foot">Hecho por: Facundo Ribetti</footer>
+<!-- bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
